@@ -1,0 +1,174 @@
+/*GLOBAL*/
+
+body{
+	background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	width: 90%;
+	margin:0 auto;
+	font-family: work sans;
+}
+
+hr {
+	border:none;
+	border-top: 2px solid black;
+	margin:40px 0px;
+}
+
+
+header {
+	text-align: center;
+	color:white;
+	font-size:1.5rem;
+}
+
+header {
+	
+	color:black;
+}
+
+header img {
+	filter: grayscale(100%);
+	width: 50%;
+	float:left;
+	margin-right:20px;
+}
+
+header h1 {
+margin:20px;
+font-size:3rem;
+color:green;
+
+}
+
+header h2 {
+	font-size:1.3rem;
+margin:0;
+}
+
+
+.wrapper-outer {
+	display:flex;
+	clear: both;
+}
+
+.wrapper-inner.story {
+	width: 70%;
+	padding-right: 4%;
+	border-right:2px solid rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-inner.story span:first-child {
+	font-weight:bold;
+}
+
+.wrapper-inner.story span.author {
+	font-style:italic;
+	display: block;
+	text-align: right;
+}
+
+.story article span.quote  {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	font-size: 160%;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding:30px 20px;
+	border-radius:10px;
+	border-left:3px dashed;
+	font-style:italic;
+}
+
+.story article span.vil.quote {
+	border-color:#2553A7;
+}
+
+.story article span.china.quote {
+	border-color:green;
+}
+
+
+.wrapper-inner aside p:first-child {
+	text-align: justify;
+}
+
+
+table {
+	width: 100%;
+	height: 400px;
+	border-collapse:collapse;
+	border-radius:10px;
+}
+
+
+
+.wrapper-inner.table {
+	width: 20%;
+	margin: 0 auto;
+	margin-right:0px;
+
+}
+
+.wrapper-inner table tr td {
+	border: 1px dashed black;
+		padding:10px;
+}
+
+
+
+.wrapper-inner table tr:nth-child(even) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-inner table tr:nth-child(odd) {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper-inner table tr:first-child{
+	background-color: black;
+	color:white;
+}
+
+.wrapper-inner aside .caption{
+	padding-top:10px; 
+	font-style:italic;
+}
+
+.wrapper-inner article {
+	text-align: justify;
+}
+.good {
+	color:green;
+	text-transform: uppercase;
+}
+
+.bad {
+	color:red;
+	text-transform: uppercase;
+}
+
+footer {
+	margin:60px;
+	margin-left:0 auto;
+}
+
+footer section p {
+	text-align: center;
+}
+
+
+@media  screen and (max-width: 800px) {
+  .wrapper-outer {
+	display:inherit;
+}
+
+.wrapper-inner.story {
+	width: 100%;
+	border:none;
+}
+
+.wrapper-inner.table {
+	width: 100%;
+	margin-left:0;
+
+}
+}
