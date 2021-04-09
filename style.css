@@ -7,13 +7,29 @@ body{
 	font-family: work sans;
 }
 
-hr {
-	border:none;
-	border-top: 2px solid black;
-	margin:40px 0px;
+header section {
 }
 
+header section.intro {
+	display: inline;
 
+	background-color: red;
+}
+
+header section .introwrap {
+
+}
+
+header section.image {
+	width: 50%;
+	background-color: blue;
+}
+
+header section img {
+	width: 100%;
+}
+
+/*
 header {
 	text-align: center;
 	color:white;
@@ -43,7 +59,7 @@ header h2 {
 	font-size:1.3rem;
 margin:0;
 }
-
+*/
 
 .wrapper-outer {
 	display:flex;
