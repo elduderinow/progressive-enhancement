@@ -151,6 +151,10 @@ footer section p {
 	text-align: center;
 }
 
+footer a {
+	padding:48px;
+}
+
 
 @media  screen and (max-width: 800px) {
 
