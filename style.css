@@ -1,10 +1,15 @@
 /*GLOBAL*/
 
 body{
-	background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	background-image: linear-gradient(to top, #cfd9df 0%, #E8F0F5 100%);
 	width: 90%;
 	margin:0 auto;
 	font-family: work sans;
+	color:#2A2A2A;
+}
+
+.title2 {
+	color:#2553A7;
 }
 
  
@@ -14,6 +19,7 @@ margin-top:50px;
 
 header section.intro {
 	width: 50%;
+	float:left;
 }
 
 header section.intro .introwrap {
@@ -23,23 +29,23 @@ padding:20px;
 
 header h1 {
 	font-size: 40px;
-	color:green;
+	color:#1ABC9C;
 }
 
-header .intro {
-	float:left;
-}
+
 
 header img {
 	filter: grayscale(100%);
 	width: 50%;
+	position: relative;
 	
 	
 }
 
 main section {
-clear:both;
+	clear:both;
 }
+
 
 .wrapper-outer {
 	display:flex;
@@ -49,7 +55,7 @@ clear:both;
 .wrapper-inner.story {
 	width: 70%;
 	padding-right: 4%;
-	border-right:2px solid rgba(0, 0, 0, 0.1);
+	border-right:2px solid rgba(255, 255, 255, 0.3);
 }
 
 .wrapper-inner.story span:first-child {
@@ -67,19 +73,23 @@ clear:both;
 	width: 50%;
 	margin: 0 auto;
 	font-size: 160%;
-	background-color: rgba(0, 0, 0, 0.1);
+	
 	padding:30px 20px;
 	border-radius:10px;
 	border-left:3px dashed;
 	font-style:italic;
+
+
 }
 
 .story article span.vil.quote {
 	border-color:#2553A7;
+	background-color: rgba(37, 83, 167, 0.1);
 }
 
 .story article span.china.quote {
-	border-color:green;
+	border-color:#1ABC9C;
+	background-color: rgba(26, 188, 156, 0.1);
 }
 
 
@@ -105,23 +115,56 @@ table {
 }
 
 .wrapper-inner table tr td {
-	border: 1px dashed black;
+	
 		padding:10px;
+
+}
+
+.wrapper-inner table tr:first-child td:nth-child(even) {
+	border-radius: 0px 10px 0px 0px;
+}
+
+.wrapper-inner table tr:first-child td:nth-child(odd) {
+	border-radius: 10px 0px 0px 0px;
+}
+
+.wrapper-inner table tr:last-child td:nth-child(even) {
+	border-radius: 0px 0px 10px 0px;
+}
+
+.wrapper-inner table tr:last-child td:nth-child(odd) {
+	border-radius: 0px 0px 0px 10px;
+}
+
+
+
+.wrapper-inner table tr td:nth-child(2){
+	border-left: 2px solid rgba(255, 255, 255, 0.5);
+
 }
 
 
 
 .wrapper-inner table tr:nth-child(even) {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 .wrapper-inner table tr:nth-child(odd) {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .wrapper-inner table tr:first-child{
-	background-color: black;
+	background-color: #2553A7;
 	color:white;
+
+}
+
+.wrapper-inner table tr td:nth-child(odd) {
+	width: 50%;
+}
+
+.wrapper-inner table tr td:nth-child(even) {
+	width: 50%;
 }
 
 .wrapper-inner aside .caption{
@@ -133,12 +176,12 @@ table {
 	text-align: justify;
 }
 .good {
-	color:green;
+	color:#1ABC9C;
 	text-transform: uppercase;
 }
 
 .bad {
-	color:red;
+	color:#E64D06;
 	text-transform: uppercase;
 }
 
@@ -152,7 +195,7 @@ footer section p {
 }
 
 footer a {
-	padding:48px;
+	color:#1ABC9C ;
 }
 
 
