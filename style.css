@@ -4,7 +4,7 @@
 
 
 body{
-	background-image: linear-gradient(to top, #cfd9df 0%, #E8F0F5 100%);
+	background-image: linear-gradient(to top, pink  0%, #cfd9df 2%, #E8F0F5 98%, pink  100%);
 	width: 90%;
 	margin:0 auto;
 	font-family: work sans;
@@ -45,6 +45,7 @@ header img {
 	width: 50%;
 	height: 50%;
 	position: relative;
+	
 	
 	
 }
