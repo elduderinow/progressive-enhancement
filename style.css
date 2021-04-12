@@ -9,6 +9,7 @@ body{
 	margin:0 auto;
 	font-family: work sans;
 	color:#2A2A2A;
+	line-height: 1.5rem;
 
 }
 
@@ -19,6 +20,7 @@ body{
  
  header {
 margin-top:50px;
+line-height: 2.8rem;
  }
 
 header section.intro {
@@ -83,6 +85,7 @@ main section {
 	border-left:3px dashed;
 	font-style:italic;
 	font-weight: 300;
+	line-height: 1.8rem;
 
 
 }
