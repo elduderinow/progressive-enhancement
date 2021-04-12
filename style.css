@@ -7,59 +7,39 @@ body{
 	font-family: work sans;
 }
 
-header section {
-}
+ 
+ header {
+margin-top:50px;
+ }
 
 header section.intro {
-	display: inline;
-
-	background-color: red;
-}
-
-header section .introwrap {
-
-}
-
-header section.image {
 	width: 50%;
-	background-color: blue;
 }
 
-header section img {
-	width: 100%;
+header section.intro .introwrap {
+text-align: right;
+padding:20px;
 }
 
-/*
-header {
-	text-align: center;
-	color:white;
-	font-size:1.5rem;
+header h1 {
+	font-size: 40px;
+	color:green;
 }
 
-header {
-	
-	color:black;
+header .intro {
+	float:left;
 }
 
 header img {
 	filter: grayscale(100%);
 	width: 50%;
-	float:left;
-	margin-right:20px;
+	
+	
 }
 
-header h1 {
-margin:20px;
-font-size:3rem;
-color:green;
-
+main section {
+clear:both;
 }
-
-header h2 {
-	font-size:1.3rem;
-margin:0;
-}
-*/
 
 .wrapper-outer {
 	display:flex;
@@ -173,6 +153,24 @@ footer section p {
 
 
 @media  screen and (max-width: 800px) {
+
+	header section.intro {
+	width: 100%;
+}
+
+header section.intro .introwrap {
+text-align: center;
+padding:20px;
+}
+
+
+	header img {
+	width: 100%;
+	
+	
+}
+
+
   .wrapper-outer {
 	display:inherit;
 }
