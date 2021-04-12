@@ -7,7 +7,7 @@ body{
 	background-image: linear-gradient(to top, pink  0%, #cfd9df 2%, #E8F0F5 98%, pink  100%);
 	width: 90%;
 	margin:0 auto;
-	font-family: work sans;
+	font-family: work sans, sans-serif;
 	color:#2A2A2A;
 	line-height: 1.5rem;
 
@@ -17,11 +17,11 @@ body{
 	color:#2553A7;
 }
 
- 
- header {
-margin-top:50px;
-line-height: 2.8rem;
- }
+
+header {
+	margin-top:50px;
+	line-height: 2.8rem;
+}
 
 header section.intro {
 	width: 50%;
@@ -29,8 +29,8 @@ header section.intro {
 }
 
 header section.intro .introwrap {
-text-align: right;
-padding:20px;
+	text-align: right;
+	padding:20px;
 }
 
 header h1 {
@@ -68,7 +68,7 @@ main {
 	font-weight:bold;
 }
 
-.wrapper-inner.story author {
+.wrapper-inner.story .author {
 	font-style:italic;
 	display: block;
 	text-align: right;
@@ -116,30 +116,30 @@ table {
 .wrapper-inner.table {
 	width: 20%;
 	margin: 0 auto;
-	margin-right:0px;
+	margin-right:0;
 
 }
 
 .wrapper-inner table tr td {
 	
-		padding:10px;
+	padding:10px;
 
 }
 
 .wrapper-inner table tr:first-child td:nth-child(even) {
-	border-radius: 0px 10px 0px 0px;
+	border-radius: 0 10px 0 0;
 }
 
 .wrapper-inner table tr:first-child td:nth-child(odd) {
-	border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0 0 0;
 }
 
 .wrapper-inner table tr:last-child td:nth-child(even) {
-	border-radius: 0px 0px 10px 0px;
+	border-radius: 0 0 10px 0;
 }
 
 .wrapper-inner table tr:last-child td:nth-child(odd) {
-	border-radius: 0px 0px 0px 10px;
+	border-radius: 0 0 0 10px;
 }
 
 
@@ -201,7 +201,6 @@ table {
 
 footer {
 	margin:60px;
-	margin-left:0 auto;
 }
 
 footer section p {
@@ -215,39 +214,39 @@ footer a {
 
 @media  screen and (max-width: 800px) {
 
-	 header {
-margin-top:0px;
- }
+	header {
+		margin-top:0;
+	}
 
 	header section.intro {
-	width: 100%;
-}
+		width: 100%;
+	}
 
-header section.intro .introwrap {
-text-align: center;
-padding:20px;
-}
+	header section.intro .introwrap {
+		text-align: center;
+		padding:20px;
+	}
 
 
 	header img {
-	width: 100%;
-	
-	
-}
+		width: 100%;
+		
+		
+	}
 
 
-  .wrapper-outer {
-	display:inherit;
-}
+	.wrapper-outer {
+		display:inherit;
+	}
 
-.wrapper-inner.story {
-	width: 100%;
-	border:none;
-}
+	.wrapper-inner.story {
+		width: 100%;
+		border:none;
+	}
 
-.wrapper-inner.table {
-	width: 100%;
-	margin-left:0;
+	.wrapper-inner.table {
+		width: 100%;
+		margin-left:0;
 
-}
+	}
 }
