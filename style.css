@@ -44,20 +44,19 @@ header img {
 	filter: grayscale(100%);
 	width: 50%;
 	height: 50%;
-	position: relative;
 	
 	
 	
 }
 
-main section {
+main {
 	clear:both;
 }
 
 
 .wrapper-outer {
 	display:flex;
-	clear: both;
+
 }
 
 .wrapper-inner.story {
