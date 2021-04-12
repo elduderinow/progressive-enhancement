@@ -67,13 +67,13 @@ main section {
 	font-weight:bold;
 }
 
-.wrapper-inner.story span.author {
+.wrapper-inner.story author {
 	font-style:italic;
 	display: block;
 	text-align: right;
 }
 
-.story article span.quote  {
+.story article q.quote  {
 	display: block;
 	width: 50%;
 	margin: 0 auto;
@@ -87,12 +87,12 @@ main section {
 
 }
 
-.story article span.vil.quote {
+.story article q.vil.quote {
 	border-color:#2553A7;
 	background-color: rgba(37, 83, 167, 0.1);
 }
 
-.story article span.china.quote {
+.story article q.china.quote {
 	border-color:#1ABC9C;
 	background-color: rgba(26, 188, 156, 0.1);
 }
